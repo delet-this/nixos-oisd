@@ -19,11 +19,11 @@
     "oisd": {
       "flake": false,
       "locked": {
-        "lastModified": 1672474259,
-        "narHash": "sha256-Xy8bWluf5rk5DiMgSv/xIWqKoNW3e74cw8Ssw373ano=",
+        "lastModified": 1672489379,
+        "narHash": "sha256-xSucg1kfdy5mHESUpdt+PhdnOArits85S9csBJTnVo4=",
         "owner": "sjhgvr",
         "repo": "oisd",
-        "rev": "df2d61a8f50efcf49b5291fab9e4dda603586fec",
+        "rev": "e579ef627bdf8855faa54726d8daed96a250bcce",
         "type": "github"
       },
       "original": {
