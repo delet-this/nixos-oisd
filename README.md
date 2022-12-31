@@ -1,7 +1,7 @@
 # nixos-oisd
-Flake with a NixOS module for [oisd.nl](https://github.com/sjhgvr/oisd) blocklist, inspired by [StevenBlack hosts flake.nix](https://github.com/StevenBlack/hosts/blob/master/flake.nix)
+Flake providing a NixOS module for [oisd.nl](https://github.com/sjhgvr/oisd) blocklist, inspired by [StevenBlack hosts flake.nix](https://github.com/StevenBlack/hosts/blob/master/flake.nix). Updates once a week.
 
-## Usage
+### Usage on NixOS with flakes
 ```nix
 {
   inputs = {
