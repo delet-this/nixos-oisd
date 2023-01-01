@@ -1,7 +1,7 @@
 # nixos-oisd
 Flake providing a NixOS module for [oisd.nl](https://github.com/sjhgvr/oisd) blocklist, inspired by [StevenBlack hosts flake.nix](https://github.com/StevenBlack/hosts/blob/master/flake.nix). Updates once a week.
 
-### Usage on NixOS with flakes
+### Example usage on NixOS with flakes
 ```nix
 {
   inputs = {
@@ -15,7 +15,7 @@ Flake providing a NixOS module for [oisd.nl](https://github.com/sjhgvr/oisd) blo
         oisd.nixosModule {
           networking.oisd-blocklist = {
             enable = true;
-            lists = [ "full" ];
+            lists = [ "full" ]; # accepts "basic", "full", "extra", "nsfw"
           };
         }
       ];
