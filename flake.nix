@@ -28,8 +28,8 @@
           lists = mkOption {
             default = [ "basic" ];
             type = types.listOf types.str;
-            description = lib.mdDoc "List of blocklists to use. Valid options: basic, full, extra, nsfw";
-            example = [ "full" "extra" "nsfw" ];
+            description = lib.mdDoc "List of blocklists to use. Valid options: small, big, nsfw";
+            example = [ "big" "nsfw" ];
           };
         };
 

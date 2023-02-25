@@ -15,7 +15,7 @@ Flake providing a NixOS module for [oisd.nl](https://github.com/sjhgvr/oisd) blo
         oisd.nixosModule {
           networking.oisd-blocklist = {
             enable = true;
-            lists = [ "full" ]; # accepts "basic", "full", "extra", "nsfw"
+            lists = [ "big" ]; # accepts "small", "big", "nsfw"
           };
         }
       ];
